@@ -1,0 +1,66 @@
+.fBg{
+    background:#1cbef2; 
+    color:white;
+}
+.fLtr-spacing{
+    letter-spacing: 5px;
+}
+.fHeader-text{
+    font-weight: bold;
+}
+.fCard{
+    position: relative;
+    margin-right:  3px;
+    min-height:500px;
+    padding:0px;
+    overflow: hidden;
+    background-color:#dddddd;
+    border-radius: 20px;
+    margin:15px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+.fCard-bg-img{
+    width:100%;
+    height:200px;
+}
+.prfile-img-div{
+    top:30%;
+    position: absolute;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.fCard-pfile-img{
+  
+    object-fit: cover;
+    border: 2px white solid;
+    border-radius: 50%;
+} 
+
+ .fCard-pfile-img:hover{
+    object-fit: cover;
+    border: 2px green solid;
+    border-radius: 50%;
+}
+
+.fContent{
+    min-height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.prsn-text{
+    text-align:center;
+    margin-top:70px;
+
+}
+ul li{
+    display: inline; 
+    margin-right: 15px;;
+ } 
+.social-links{
+display: flex;
+justify-content: center;
+}
+.fFooter-text{
+    margin:15px 0px 30px 0px;
+}
